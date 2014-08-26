@@ -56,7 +56,7 @@ while True:
     else:
         print 'Container exists.  Try again'
 
-content = """ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbRE4BY0KZMhpytSutlRjTUaOUmRslZaUXWLo+9dGa/+NkifglXOY2+jnlKXUkEj7XUe5iruT4xPgG14JJwC1+ouBeo+Vi8820WRhZ4E6H8RutBFCfgdKr4gup5kugj9oEjY9a1liizbzX06TRd3xvFcea39XjBaKwCWNa/jX4MV7aG9s1z6qtBhL71mfaO9dRErwTfscuAX6KKrSclc8OIkB/+uvOZ2GmZUNzsbrEz7SheFE4VpceSL65CwWa+K8AauCkIlHeUfIACKmBwk3mcqWqm0IeIuF9NWw19ja2onpQxpwP/tQLBgtTaplJSfBG3NcnDPbda1EwXx4zJIFN chri5377@MJC2E9DV30"""
+content = """public ssh key (id_rsa.pub)"""
 
 files = {"/root/.ssh/authorized_keys": content}
 

@@ -7,8 +7,8 @@ import urllib
 
 username = "usernamehere"
 apikey = "apikeyhere"
-domain_name = "devcube.org"
-fqdn = "belize.devcube.org"
+domain_name = "domain.com"
+fqdn = "host.domain.com"
 
 try:
     pyrax.set_credentials(username, apikey)
